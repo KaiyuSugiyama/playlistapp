@@ -9,15 +9,10 @@ Group Project for tri3!
 - [Folder Containing Justifications for Minilab](https://drive.google.com/drive/u/1/folders/1rY2DlSWzvpxBbPOH8zE3hpo2-O9kGwoX)
 
 ### Collaborators
-- Charlie Zhu ID: #72889453
-- Komay Sugiyama ID: #30739783
-- Chris Rubin ID: #72892271
-- Devam Shrivastava ID: #51984972
-- Eshaan Parlikar ID: #32022538
-
+- Jake Shim
+- Kaiyu Sugiyama 
 # How It's Made
 ## Theme Section (5pt)
-- [Find Similar Songs Page](https://kpop.nighthawkcodingsociety.com/ks) (+0.5pt User interaction, +0.5pt Technical, +1pt Fun)
     - This page demonstrates usage and display of [online APIs that take parametrs](https://github.com/zenxha/kpop/blob/main/view/komay/classes/getsongs.py#L20)
     - User can input an Artist and the Track name as well as how they want the list sorted. The response displays song cards that the user can listen to. These cares provide info such as wear to listen and popularity info.
     - As a music-focused site, this page helps users find new songs if they ever want new songs that are similar to the ones they are currently listening to
