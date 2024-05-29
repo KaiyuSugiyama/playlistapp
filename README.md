@@ -145,7 +145,7 @@ class Song:
 ``` py
 @app.route('/', methods=["POST", 'GET'])
 def index():
-    background = random.choice(backgrounds)
+    background = "https://ichef.bbci.co.uk/images/ic/640x360/p01j4871.jpg"
     if request.method == "POST":
         playlistname = request.form["playlistname"]
         username = request.form["username"]
