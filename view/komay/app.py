@@ -21,4 +21,4 @@ def index():
         print(the_song.similar_songs_list)
         return render_template('getsongs.html', Song = the_song, background=random.choice(backgrounds))
 
-    return render_template('getsongs.html', background=random.choice(backgrounds), Song = Song('Queen', "Bohemian+Rhapsody", "similarity"))
+    return render_template('getsongs.html', background=random.choice(backgrounds), Song = Song('The+Weekend', "Blinding+Lights", "similarity"))
